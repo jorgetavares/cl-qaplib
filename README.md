@@ -1,8 +1,7 @@
-# CL-QAPLIB
+# cl-qaplib
 This is a simple parser and container for QAPLIB dataset files.
 
-
-# INSTALL
+# Install
 1. if you have Quicklisp installed just extract the contents of cl-qaplib to
 a source directory of your liking and recognized by Quicklisp. After that just
 do (ql:quickload "cl-qaplib") and it's ready to be used.
@@ -10,7 +9,6 @@ do (ql:quickload "cl-qaplib") and it's ready to be used.
 2. Otherwise just use ASDF directly: (asdf:oos 'asdf:load-op :cl-qaplib)
 
 3. This library does not depend on any other library and is written in pure CL.
-
 
 # Quick Usage
 From the REPL just call (cl-qaplib:parse-instance <instance-file>) to parse 
@@ -23,7 +21,6 @@ ref-distances.
 
 For more details on the problem instances, please consult 
 the [QAPLIB website](http://www.seas.upenn.edu/qaplib/)
-
 
 # License
 This project is licensed under the MIT license, see the LICENSE file for more details.
